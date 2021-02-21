@@ -40,7 +40,7 @@ const TreeNode = ({ node }) => {
         <div className="list-child ">
           <a>{node.header}</a>
           <div className="list-content ">
-            <input placeholder="Search" />
+            <input className="searchbox" placeholder="Search" />
             <List data={node.children} />
           </div>
         </div>
