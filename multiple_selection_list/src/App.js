@@ -5,12 +5,12 @@ import List from './component/Tree/List';
 const mockData = [
   {
     "id": 1,
-    "header": "Products",
+    "header": "SubCategories",
     "label": "Automatic control engineering and control technologies",
     "children": [
       {
         "id": 1,
-        "header": "SubCategories",
+        "header": "Sub-Products",
         "label": "Bearings",
         "children": [
           {
@@ -38,6 +38,7 @@ const mockData = [
       {
         "id": 1,
         "label": "Current Collectors",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -63,6 +64,7 @@ const mockData = [
       },
       {
         "id": 3,
+        "header": "Sub-Products",
         "label": "Fans and fan impellers",
         "children": [
           {
@@ -90,6 +92,7 @@ const mockData = [
       {
         "id": 4,
         "label": "Insulators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -116,6 +119,7 @@ const mockData = [
       {
         "id": 5,
         "label": "Rotors and Sators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -143,10 +147,12 @@ const mockData = [
   },
   {
     "id": 2,
+    "header": "SubCategories",
     "label": "Communication equipment",
     "children": [
       {
         "id": 1,
+        "header": "Sub-Products",
         "label": "Bearings",
         "children": [
           {
@@ -174,6 +180,7 @@ const mockData = [
       {
         "id": 1,
         "label": "Current Collectors",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -199,6 +206,7 @@ const mockData = [
       },
       {
         "id": 3,
+        "header": "Sub-Products",
         "label": "Fans and fan impellers",
         "children": [
           {
@@ -226,6 +234,7 @@ const mockData = [
       {
         "id": 4,
         "label": "Insulators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -252,6 +261,7 @@ const mockData = [
       {
         "id": 5,
         "label": "Rotors and Sators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -279,10 +289,12 @@ const mockData = [
   },
   {
     "id": 3,
+    "header": "SubCategories",
     "label": "Electric Motors",
     "children": [
       {
         "id": 1,
+        "header": "Sub-Products",
         "label": "Bearings",
         "children": [
           {
@@ -310,6 +322,7 @@ const mockData = [
       {
         "id": 1,
         "label": "Current Collectors",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -335,6 +348,7 @@ const mockData = [
       },
       {
         "id": 3,
+        "header": "Sub-Products",
         "label": "Fans and fan impellers",
         "children": [
           {
@@ -362,6 +376,7 @@ const mockData = [
       {
         "id": 4,
         "label": "Insulators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -388,6 +403,7 @@ const mockData = [
       {
         "id": 5,
         "label": "Rotors and Sators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -415,10 +431,12 @@ const mockData = [
   },
   {
     "id": 4,
+    "header": "SubCategories",
     "label": "Electric equipment",
     "children": [
       {
         "id": 1,
+        "header": "Sub-Products",
         "label": "Bearings",
         "children": [
           {
@@ -446,6 +464,7 @@ const mockData = [
       {
         "id": 1,
         "label": "Current Collectors",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -471,6 +490,7 @@ const mockData = [
       },
       {
         "id": 3,
+        "header": "Sub-Products",
         "label": "Fans and fan impellers",
         "children": [
           {
@@ -498,6 +518,7 @@ const mockData = [
       {
         "id": 4,
         "label": "Insulators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -524,6 +545,7 @@ const mockData = [
       {
         "id": 5,
         "label": "Rotors and Sators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -551,10 +573,12 @@ const mockData = [
   },
   {
     "id": 5,
+    "header": "SubCategories",
     "label": "Electric components",
     "children": [
       {
         "id": 1,
+        "header": "Sub-Products",
         "label": "Bearings",
         "children": [
           {
@@ -582,6 +606,7 @@ const mockData = [
       {
         "id": 1,
         "label": "Current Collectors",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -607,6 +632,7 @@ const mockData = [
       },
       {
         "id": 3,
+        "header": "Sub-Products",
         "label": "Fans and fan impellers",
         "children": [
           {
@@ -634,6 +660,7 @@ const mockData = [
       {
         "id": 4,
         "label": "Insulators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -660,6 +687,7 @@ const mockData = [
       {
         "id": 5,
         "label": "Rotors and Sators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -687,10 +715,12 @@ const mockData = [
   },
   {
     "id": 6,
+    "header": "SubCategories",
     "label": "Factory euipment, maintenance accessories",
     "children": [
       {
         "id": 1,
+        "header": "Sub-Products",
         "label": "Bearings",
         "children": [
           {
@@ -718,6 +748,7 @@ const mockData = [
       {
         "id": 1,
         "label": "Current Collectors",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -743,6 +774,7 @@ const mockData = [
       },
       {
         "id": 3,
+        "header": "Sub-Products",
         "label": "Fans and fan impellers",
         "children": [
           {
@@ -770,6 +802,7 @@ const mockData = [
       {
         "id": 4,
         "label": "Insulators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -796,6 +829,7 @@ const mockData = [
       {
         "id": 5,
         "label": "Rotors and Sators",
+        "header": "Sub-Products",
         "children": [
           {
             "id": 1,
@@ -823,6 +857,7 @@ const mockData = [
   },
   {
     "id": 6,
+    "header": "SubCategories",
     "label": "Laser Technology",
     "children": [
       {
@@ -962,8 +997,12 @@ const mockData = [
 
 function App() {
   return (
-    <div className="App  panel ">
-      <List data={mockData}></List>
+    <div className="App .d-flex">
+      <h1> Products </h1>
+      <div className="panel">
+        <List data={mockData}></List>
+      </div>
+
     </div>
   );
 }

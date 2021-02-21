@@ -1,12 +1,14 @@
-.d-flex{
-  display: flexbox;
+.list-child {
+  background-color: rgb(34, 34, 48);
+  color: white;
+  padding: 5px;
+  text-align: center;  
 }
 
-.panel{
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
-	border-radius: 15px !important;	
-	position: relative;	
-  padding: 20px;
+.list-content{
+  background-color: rgb(222, 224, 228);
+  color: rgb(37, 37, 37);
+  
 }
 
 ul{

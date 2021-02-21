@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./List.css";
+
+
+
 const List = ({ data }) => {
   return (
     <div className="list-view">
@@ -12,6 +15,8 @@ const List = ({ data }) => {
     </div>
   )
 }
+
+
 
 const TreeNode = ({ node }) => {
   const [childVisible, setChildVisibility] = useState(false);
@@ -26,16 +31,18 @@ const TreeNode = ({ node }) => {
           </div>
         )}
         <div className=" list-items">
-          {node.label}
+          <a>{node.label}</a>
+          <span>check</span>
         </div>
       </div>
       {
         hasChild && childVisible &&
-        <div className="list-content ">
-          <input placeholder="Search" />
-          <ul className="d-flex list-container" >
+        <div className="list-child ">
+          <a>{node.header}</a>
+          <div className="list-content ">
+            <input placeholder="Search" />
             <List data={node.children} />
-          </ul>
+          </div>
         </div>
       }
     </li>
