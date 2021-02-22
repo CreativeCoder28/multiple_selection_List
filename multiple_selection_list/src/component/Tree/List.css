@@ -10,6 +10,9 @@
   color: rgb(37, 37, 37);
   
 }
+.list-items{
+  text-align: justify;
+}
 
 ul{
   text-align: left;
@@ -19,7 +22,7 @@ ul{
 }
 
 li{
-  text-align: left;
+  align-content: stretch;
   border-bottom: solid 1px  rgba(61, 61, 61, 0.3);
   padding: 5px;
 }
@@ -34,6 +37,14 @@ li{
  display: inline-block;
  border-color: transparent;
 }
+
+.checkbox{
+   right: 0px;
+   vertical-align: middle;
+   background-color: transparent;
+}
+
+.list-items 
 
 .searchbox{
   height: 25px;

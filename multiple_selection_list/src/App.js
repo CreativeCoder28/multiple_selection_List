@@ -997,13 +997,16 @@ const mockData = [
 
 function App() {
   return (
-    <div className="App .d-flex">
+    <form className="App .d-flex">
       <h1> Products </h1>
+      <p>This is a sample application created with react of a multiselect
+      nested list.
+      </p>
       <div className="panel">
         <List data={mockData}></List>
       </div>
-
-    </div>
+      <button className="btn" type="submit">Done</button>
+    </form>
   );
 }
 
